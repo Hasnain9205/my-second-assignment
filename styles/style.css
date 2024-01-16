@@ -305,6 +305,81 @@ hr{
    
 }
 
+.maldives{
+    grid-area: maldives;
+}
+.srilanka{
+    grid-area: srilanka;
+}
+.America{
+    grid-area: America;
+}
+.indonasia{
+    grid-area: indonasia;
+}
+.kasmir{
+    grid-area: kasmir;
+
+}
+.Bangladesh{
+    grid-area: Bangladesh;
+}
+.bandarban{
+    grid-area: bandarban;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'maldives  maldives  maldives indonasia indonasia indonasia'
+    'srilanka srilanka America America kasmir kasmir'
+    'Bangladesh Bangladesh Bangladesh bandarban bandarban bandarban'
+    ;
+    gap: 10px;
+    padding: 25px;
+    margin: 30px 130px;
+    
+}
+.maldives img{
+    width: 500px;
+    height: 300px;
+}
+.srilanka img{
+    width: 300px;
+    height: 300px;
+}
+.America img{
+    width: 400px;
+    height: 300px;
+} 
+.Bangladesh img{
+    width: 450px;
+    height: 300px;
+} 
+.bandarban img{
+    width: 500px;
+    height: 300px;
+} 
+.indonasia img{
+    width: 500px;
+    height: 300px;
+}
+.kasmir img{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.mal{
+    position: relative;
+    left: 100px;
+    top: -200px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
 
 
 
@@ -383,10 +458,10 @@ hr{
     width: 500px;
  }
  .relation{
-
+left: 200px;
  }
  .footer-container{
-    width: 100%;
+    width: 0%;
  }
  .footer-discription{
     width: 400px;
